@@ -1,0 +1,41 @@
+This chat system is implemented using unix sockets. 
+There is a server which connects to multiple clients.
+The server relays messages between clients.
+
+Threads are created to handle each client independently.
+
+Program usage:
+To compile the program, enter the folder and use make all in the terminal.
+To remove binaries, use make clean.
+
+
+Testing of the program:
+run the server program by typing ./server
+Now open up clients in different terminals by typing ./client 
+A user ID will be assigned to each client. 
+The user will be prompted to enter a username.
+Available options are printed.
+
+Use BROADCAST to send a message to all clients, or else use MSG <Client ID> <message> to send individual messages.
+If an invalid user is selected, user will see Client doesn't exist, as output
+If the user enters an invalid input, he/she will be prompted.
+
+
+Errors: 
+Invalid users selected
+Invalid input format
+Other minor errors while sending/receiving messages, connecting socket, etc.
+
+
+
+
+
+
+
+
+
+
+
+resources: Github, stackoverflow, GeekForGeeks, beej
+https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+
