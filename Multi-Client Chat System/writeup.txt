@@ -36,6 +36,5 @@ Other minor errors while sending/receiving messages, connecting socket, etc.
 
 
 
-resources: Github, stackoverflow, GeekForGeeks, beej
-https://gist.github.com/Abhey/47e09377a527acfc2480dbc5515df872
+
 
